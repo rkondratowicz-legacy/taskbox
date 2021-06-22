@@ -21,7 +21,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@babel/compat-data/-/compat-data-7.13.15.tgz"
   "version" "7.13.15"
 
-"@babel/core@^7.1.0", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.7.5", "@babel/core@^7.8.4", "@babel/core@^7.9.0":
+"@babel/core@*", "@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.1.0", "@babel/core@^7.11.5", "@babel/core@^7.11.6", "@babel/core@^7.12.10", "@babel/core@^7.12.3", "@babel/core@^7.13.0", "@babel/core@^7.4.0-0", "@babel/core@^7.7.5", "@babel/core@^7.8.4", "@babel/core@^7.9.0", "@babel/core@^7.9.6", "@babel/core@7 || ^7.0.0-rc.2":
   "integrity" "sha512-sXHpixBiWWFti0AV2Zq7avpTasr6sIAu7Y396c608541qAU2ui4a193m0KSQmfPSKFZLnQ3cvlKDOm3XkuXm3Q== sha1-d1arJDlsyWdfHD/NW3n8zhkuqWo="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@babel/core/-/core-7.13.16.tgz"
   "version" "7.13.16"
@@ -140,7 +140,7 @@
     "regexpu-core" "^4.7.1"
 
 "@babel/helper-define-polyfill-provider@^0.1.5":
-  "integrity" "sha512-nXuzCSwlJ/WKr8qxzW816gwyT6VZgiJG17zR40fou70yfAcqjoNyTLl/DQ+FExw5Hx5KNqshmN8Ldl/r2N7cTg== sha1-PC+Rt5cbn8Ef53nJRcAUBl3qNA4="
+  "integrity" "sha1-PC+Rt5cbn8Ef53nJRcAUBl3qNA4="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.1.5.tgz"
   "version" "0.1.5"
   dependencies:
@@ -1306,7 +1306,7 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@^10.1.1":
+"@emotion/core@^10.0.27", "@emotion/core@^10.0.28", "@emotion/core@^10.1.1":
   "integrity" "sha512-ZMLG6qpXR8x031NXD8HJqugy/AZSkAuMxxqB46pmAR7ze47MhNJ56cdoX243QPZdGctrdfo+s08yZTiwaUcRKA== sha1-yVbBNl8vJIGWAGS8uMRzLl+2EsM="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@emotion/core/-/core-10.1.1.tgz"
   "version" "10.1.1"
@@ -1747,7 +1747,7 @@
     "schema-utils" "^2.6.5"
     "source-map" "^0.7.3"
 
-"@popperjs/core@^2.5.4", "@popperjs/core@^2.6.0":
+"@popperjs/core@^2.0.0", "@popperjs/core@^2.5.4", "@popperjs/core@^2.6.0":
   "integrity" "sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q== sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@popperjs/core/-/core-2.9.2.tgz"
   "version" "2.9.2"
@@ -1943,6 +1943,30 @@
     "regenerator-runtime" "^0.13.7"
     "ts-dedent" "^2.0.0"
 
+"@storybook/addon-storyshots@^6.2.9":
+  "integrity" "sha1-UFtmyZxYuSAFJroU1mto+A4RRGk="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/addon-storyshots/-/addon-storyshots-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@jest/transform" "^26.6.2"
+    "@storybook/addons" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/core" "6.2.9"
+    "@storybook/core-common" "6.2.9"
+    "@types/glob" "^7.1.3"
+    "@types/jest" "^26.0.16"
+    "@types/jest-specific-snapshot" "^0.5.3"
+    "babel-plugin-require-context-hook" "^1.0.0"
+    "core-js" "^3.8.2"
+    "glob" "^7.1.6"
+    "global" "^4.4.0"
+    "jest-specific-snapshot" "^4.0.0"
+    "pretty-format" "^26.6.2"
+    "react-test-renderer" "^16.8.0 || ^17.0.0"
+    "read-pkg-up" "^7.0.1"
+    "regenerator-runtime" "^0.13.7"
+    "ts-dedent" "^2.0.0"
+
 "@storybook/addon-toolbars@6.2.8":
   "integrity" "sha512-BInsquQhEN/AD/any2tRZwreRQVueGrHg9bu1FnJzigpoUJv8VuDwOSIY1Fr1ZfMljhwVxwM5wGmHdVtG+SwDQ== sha1-q23X4ID+7SXVYtRoMWrI5Ht0XuQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/addon-toolbars/-/addon-toolbars-6.2.8.tgz"
@@ -1986,6 +2010,21 @@
     "global" "^4.4.0"
     "regenerator-runtime" "^0.13.7"
 
+"@storybook/addons@6.2.9":
+  "integrity" "sha1-t7ornw4VuFLH1rV9BPsKSTxXR3w="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/addons/-/addons-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@storybook/api" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/router" "6.2.9"
+    "@storybook/theming" "6.2.9"
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+    "regenerator-runtime" "^0.13.7"
+
 "@storybook/api@6.2.8":
   "integrity" "sha512-jaYT/IzFBUQTx/PqOIBty4HzZnRuk36vsGnBs/CWr8p3JCcnmLRaULsO0Q61rwFj2e4nMFMHEsZXEqRUXk4riw== sha1-kWWyX4tx4IxK9aMIBUB7Al+7Wx8="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/api/-/api-6.2.8.tgz"
@@ -1999,6 +2038,32 @@
     "@storybook/router" "6.2.8"
     "@storybook/semver" "^7.3.2"
     "@storybook/theming" "6.2.8"
+    "@types/reach__router" "^1.3.7"
+    "core-js" "^3.8.2"
+    "fast-deep-equal" "^3.1.3"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "memoizerific" "^1.11.3"
+    "qs" "^6.10.0"
+    "regenerator-runtime" "^0.13.7"
+    "store2" "^2.12.0"
+    "telejson" "^5.1.0"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+
+"@storybook/api@6.2.9":
+  "integrity" "sha1-qbRlaRkq1djaZDXJ1j3EsMhGO1E="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/api/-/api-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@reach/router" "^1.3.4"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/csf" "0.0.1"
+    "@storybook/router" "6.2.9"
+    "@storybook/semver" "^7.3.2"
+    "@storybook/theming" "6.2.9"
     "@types/reach__router" "^1.3.7"
     "core-js" "^3.8.2"
     "fast-deep-equal" "^3.1.3"
@@ -2088,6 +2153,82 @@
     "webpack-hot-middleware" "^2.25.0"
     "webpack-virtual-modules" "^0.2.2"
 
+"@storybook/builder-webpack4@6.2.9":
+  "integrity" "sha1-3d/wsbRZCnugiM4T58xC5IL2RV0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/builder-webpack4/-/builder-webpack4-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/plugin-proposal-class-properties" "^7.12.1"
+    "@babel/plugin-proposal-decorators" "^7.12.12"
+    "@babel/plugin-proposal-export-default-from" "^7.12.1"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.12.1"
+    "@babel/plugin-proposal-object-rest-spread" "^7.12.1"
+    "@babel/plugin-proposal-optional-chaining" "^7.12.7"
+    "@babel/plugin-proposal-private-methods" "^7.12.1"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-transform-arrow-functions" "^7.12.1"
+    "@babel/plugin-transform-block-scoping" "^7.12.12"
+    "@babel/plugin-transform-classes" "^7.12.1"
+    "@babel/plugin-transform-destructuring" "^7.12.1"
+    "@babel/plugin-transform-for-of" "^7.12.1"
+    "@babel/plugin-transform-parameters" "^7.12.1"
+    "@babel/plugin-transform-shorthand-properties" "^7.12.1"
+    "@babel/plugin-transform-spread" "^7.12.1"
+    "@babel/plugin-transform-template-literals" "^7.12.1"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/preset-react" "^7.12.10"
+    "@babel/preset-typescript" "^7.12.7"
+    "@storybook/addons" "6.2.9"
+    "@storybook/api" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/components" "6.2.9"
+    "@storybook/core-common" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/node-logger" "6.2.9"
+    "@storybook/router" "6.2.9"
+    "@storybook/semver" "^7.3.2"
+    "@storybook/theming" "6.2.9"
+    "@storybook/ui" "6.2.9"
+    "@types/node" "^14.0.10"
+    "@types/webpack" "^4.41.26"
+    "autoprefixer" "^9.8.6"
+    "babel-loader" "^8.2.2"
+    "babel-plugin-macros" "^2.8.0"
+    "babel-plugin-polyfill-corejs3" "^0.1.0"
+    "case-sensitive-paths-webpack-plugin" "^2.3.0"
+    "core-js" "^3.8.2"
+    "css-loader" "^3.6.0"
+    "dotenv-webpack" "^1.8.0"
+    "file-loader" "^6.2.0"
+    "find-up" "^5.0.0"
+    "fork-ts-checker-webpack-plugin" "^4.1.6"
+    "fs-extra" "^9.0.1"
+    "glob" "^7.1.6"
+    "glob-promise" "^3.4.0"
+    "global" "^4.4.0"
+    "html-webpack-plugin" "^4.0.0"
+    "pnp-webpack-plugin" "1.6.4"
+    "postcss" "^7.0.35"
+    "postcss-flexbugs-fixes" "^4.2.1"
+    "postcss-loader" "^4.2.0"
+    "raw-loader" "^4.0.2"
+    "react-dev-utils" "^11.0.3"
+    "stable" "^0.1.8"
+    "style-loader" "^1.3.0"
+    "terser-webpack-plugin" "^3.1.0"
+    "ts-dedent" "^2.0.0"
+    "url-loader" "^4.1.1"
+    "util-deprecate" "^1.0.2"
+    "webpack" "4"
+    "webpack-dev-middleware" "^3.7.3"
+    "webpack-filter-warnings-plugin" "^1.2.1"
+    "webpack-hot-middleware" "^2.25.0"
+    "webpack-virtual-modules" "^0.2.2"
+
 "@storybook/channel-postmessage@6.2.8":
   "integrity" "sha512-SWBpZopkMDstxuhC0qzhzZoJUbLpGkNFjy+f8BAXLikOWcEISk5e74dZm3Q20yV10KSRUoIGfPqhHG3QmkLwBA== sha1-hiTY2iXNe7n/Qr2aRs1LEF1j0+w="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/channel-postmessage/-/channel-postmessage-6.2.8.tgz"
@@ -2101,10 +2242,32 @@
     "qs" "^6.10.0"
     "telejson" "^5.1.0"
 
+"@storybook/channel-postmessage@6.2.9":
+  "integrity" "sha1-rYVXPgpdbwzeNQTxaNh6c8sLYmk="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/channel-postmessage/-/channel-postmessage-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+    "qs" "^6.10.0"
+    "telejson" "^5.1.0"
+
 "@storybook/channels@6.2.8":
   "integrity" "sha512-wn4I1kljyhEYhdJV98SrzQutbeigBwtTtisCdICJrUoENpLBWjZYWg5s+Wam1Q65375ajgIzeL7IZH7/TjxeKg== sha1-gew1ApGt/kee6mnkf2cNZM4P6KI="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/channels/-/channels-6.2.8.tgz"
   "version" "6.2.8"
+  dependencies:
+    "core-js" "^3.8.2"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+
+"@storybook/channels@6.2.9":
+  "integrity" "sha1-qf1/JRAsvsFftW92q/iRt7IU6d4="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/channels/-/channels-6.2.9.tgz"
+  "version" "6.2.9"
   dependencies:
     "core-js" "^3.8.2"
     "ts-dedent" "^2.0.0"
@@ -2134,10 +2297,42 @@
     "ts-dedent" "^2.0.0"
     "util-deprecate" "^1.0.2"
 
+"@storybook/client-api@6.2.9":
+  "integrity" "sha1-8LtE6bJpKt+/MNf/dRxt1EvP4c4="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/client-api/-/client-api-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@storybook/addons" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/csf" "0.0.1"
+    "@types/qs" "^6.9.5"
+    "@types/webpack-env" "^1.16.0"
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "memoizerific" "^1.11.3"
+    "qs" "^6.10.0"
+    "regenerator-runtime" "^0.13.7"
+    "stable" "^0.1.8"
+    "store2" "^2.12.0"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+
 "@storybook/client-logger@6.2.8":
   "integrity" "sha512-O1pmTmKUwR8KW1Bv4o2z3LII/g5PQqykIvUMEoDLjL4ogS7aDaxXZSlONSPpCyGYcH9pVdHiRex37R7U9N8r3A== sha1-LjLMnwtz4p+zhjg6ueknq202aPw="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/client-logger/-/client-logger-6.2.8.tgz"
   "version" "6.2.8"
+  dependencies:
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+
+"@storybook/client-logger@6.2.9":
+  "integrity" "sha1-d8HqOWhK0qLPaDYFGzgfxbNU4TI="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/client-logger/-/client-logger-6.2.9.tgz"
+  "version" "6.2.9"
   dependencies:
     "core-js" "^3.8.2"
     "global" "^4.4.0"
@@ -2172,6 +2367,36 @@
     "ts-dedent" "^2.0.0"
     "util-deprecate" "^1.0.2"
 
+"@storybook/components@6.2.9":
+  "integrity" "sha1-cYn5cVsFcg/gg66K0BSEnxTpjnM="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/components/-/components-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@popperjs/core" "^2.6.0"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/csf" "0.0.1"
+    "@storybook/theming" "6.2.9"
+    "@types/color-convert" "^2.0.0"
+    "@types/overlayscrollbars" "^1.12.0"
+    "@types/react-syntax-highlighter" "11.0.5"
+    "color-convert" "^2.0.1"
+    "core-js" "^3.8.2"
+    "fast-deep-equal" "^3.1.3"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "markdown-to-jsx" "^7.1.0"
+    "memoizerific" "^1.11.3"
+    "overlayscrollbars" "^1.13.1"
+    "polished" "^4.0.5"
+    "prop-types" "^15.7.2"
+    "react-colorful" "^5.0.1"
+    "react-popper-tooltip" "^3.1.1"
+    "react-syntax-highlighter" "^13.5.3"
+    "react-textarea-autosize" "^8.3.0"
+    "regenerator-runtime" "^0.13.7"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+
 "@storybook/core-client@6.2.8":
   "integrity" "sha512-U26SMRCf2DEd1bHJR/g+jO6ujlEyBK1VudPQvsNjGdWedmtRc0FTQS13k0eQgawDBRC+hKTtTs/IRW5E0dn2KA== sha1-ChA9j7bC5WqVZbevNvEfTtliD+g="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-client/-/core-client-6.2.8.tgz"
@@ -2184,6 +2409,28 @@
     "@storybook/core-events" "6.2.8"
     "@storybook/csf" "0.0.1"
     "@storybook/ui" "6.2.8"
+    "ansi-to-html" "^0.6.11"
+    "core-js" "^3.8.2"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "qs" "^6.10.0"
+    "regenerator-runtime" "^0.13.7"
+    "ts-dedent" "^2.0.0"
+    "unfetch" "^4.2.0"
+    "util-deprecate" "^1.0.2"
+
+"@storybook/core-client@6.2.9":
+  "integrity" "sha1-P2EZR+ZN7gopflEv+XQIe8UsGHc="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-client/-/core-client-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@storybook/addons" "6.2.9"
+    "@storybook/channel-postmessage" "6.2.9"
+    "@storybook/client-api" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/csf" "0.0.1"
+    "@storybook/ui" "6.2.9"
     "ansi-to-html" "^0.6.11"
     "core-js" "^3.8.2"
     "global" "^4.4.0"
@@ -2248,10 +2495,71 @@
     "util-deprecate" "^1.0.2"
     "webpack" "4"
 
+"@storybook/core-common@6.2.9":
+  "integrity" "sha1-VPjgBXM9OcTLkO7HwX+cpNy+7F8="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-common/-/core-common-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/plugin-proposal-class-properties" "^7.12.1"
+    "@babel/plugin-proposal-decorators" "^7.12.12"
+    "@babel/plugin-proposal-export-default-from" "^7.12.1"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.12.1"
+    "@babel/plugin-proposal-object-rest-spread" "^7.12.1"
+    "@babel/plugin-proposal-optional-chaining" "^7.12.7"
+    "@babel/plugin-proposal-private-methods" "^7.12.1"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-transform-arrow-functions" "^7.12.1"
+    "@babel/plugin-transform-block-scoping" "^7.12.12"
+    "@babel/plugin-transform-classes" "^7.12.1"
+    "@babel/plugin-transform-destructuring" "^7.12.1"
+    "@babel/plugin-transform-for-of" "^7.12.1"
+    "@babel/plugin-transform-parameters" "^7.12.1"
+    "@babel/plugin-transform-shorthand-properties" "^7.12.1"
+    "@babel/plugin-transform-spread" "^7.12.1"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/preset-react" "^7.12.10"
+    "@babel/preset-typescript" "^7.12.7"
+    "@babel/register" "^7.12.1"
+    "@storybook/node-logger" "6.2.9"
+    "@storybook/semver" "^7.3.2"
+    "@types/glob-base" "^0.3.0"
+    "@types/micromatch" "^4.0.1"
+    "@types/node" "^14.0.10"
+    "@types/pretty-hrtime" "^1.0.0"
+    "babel-loader" "^8.2.2"
+    "babel-plugin-macros" "^3.0.1"
+    "babel-plugin-polyfill-corejs3" "^0.1.0"
+    "chalk" "^4.1.0"
+    "core-js" "^3.8.2"
+    "express" "^4.17.1"
+    "file-system-cache" "^1.0.5"
+    "find-up" "^5.0.0"
+    "fork-ts-checker-webpack-plugin" "^6.0.4"
+    "glob" "^7.1.6"
+    "glob-base" "^0.3.0"
+    "interpret" "^2.2.0"
+    "json5" "^2.1.3"
+    "lazy-universal-dotenv" "^3.0.1"
+    "micromatch" "^4.0.2"
+    "pkg-dir" "^5.0.0"
+    "pretty-hrtime" "^1.0.3"
+    "resolve-from" "^5.0.0"
+    "ts-dedent" "^2.0.0"
+    "util-deprecate" "^1.0.2"
+    "webpack" "4"
+
 "@storybook/core-events@6.2.8":
   "integrity" "sha512-1TVzA5/FEwtgxor2q6tsBBMTmhyJubNWlP3akznume8F7kqoCl+k/ss0PQ0ywlzc9PjWQXS7HGmSVzx0r8gdHQ== sha1-4zQn97SyvRQceIGJ1Q3JIzfdToE="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-events/-/core-events-6.2.8.tgz"
   "version" "6.2.8"
+  dependencies:
+    "core-js" "^3.8.2"
+
+"@storybook/core-events@6.2.9":
+  "integrity" "sha1-TxKUfNFdHrPEEJkjZXwBL+71Ic0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-events/-/core-events-6.2.9.tgz"
+  "version" "6.2.9"
   dependencies:
     "core-js" "^3.8.2"
 
@@ -2314,6 +2622,65 @@
     "webpack-dev-middleware" "^3.7.3"
     "webpack-virtual-modules" "^0.2.2"
 
+"@storybook/core-server@6.2.9":
+  "integrity" "sha1-2ot/BD/1nubNLoYxuo0PlU/cJlo="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core-server/-/core-server-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/plugin-transform-template-literals" "^7.12.1"
+    "@babel/preset-react" "^7.12.10"
+    "@storybook/addons" "6.2.9"
+    "@storybook/builder-webpack4" "6.2.9"
+    "@storybook/core-client" "6.2.9"
+    "@storybook/core-common" "6.2.9"
+    "@storybook/node-logger" "6.2.9"
+    "@storybook/semver" "^7.3.2"
+    "@storybook/theming" "6.2.9"
+    "@storybook/ui" "6.2.9"
+    "@types/node" "^14.0.10"
+    "@types/node-fetch" "^2.5.7"
+    "@types/pretty-hrtime" "^1.0.0"
+    "@types/webpack" "^4.41.26"
+    "airbnb-js-shims" "^2.2.1"
+    "babel-loader" "^8.2.2"
+    "better-opn" "^2.1.1"
+    "boxen" "^4.2.0"
+    "case-sensitive-paths-webpack-plugin" "^2.3.0"
+    "chalk" "^4.1.0"
+    "cli-table3" "0.6.0"
+    "commander" "^6.2.1"
+    "core-js" "^3.8.2"
+    "cpy" "^8.1.1"
+    "css-loader" "^3.6.0"
+    "detect-port" "^1.3.0"
+    "dotenv-webpack" "^1.8.0"
+    "express" "^4.17.1"
+    "file-loader" "^6.2.0"
+    "file-system-cache" "^1.0.5"
+    "find-up" "^5.0.0"
+    "fs-extra" "^9.0.1"
+    "global" "^4.4.0"
+    "html-webpack-plugin" "^4.0.0"
+    "ip" "^1.1.5"
+    "node-fetch" "^2.6.1"
+    "pnp-webpack-plugin" "1.6.4"
+    "pretty-hrtime" "^1.0.3"
+    "prompts" "^2.4.0"
+    "read-pkg-up" "^7.0.1"
+    "regenerator-runtime" "^0.13.7"
+    "resolve-from" "^5.0.0"
+    "serve-favicon" "^2.5.0"
+    "style-loader" "^1.3.0"
+    "telejson" "^5.1.0"
+    "terser-webpack-plugin" "^3.1.0"
+    "ts-dedent" "^2.0.0"
+    "url-loader" "^4.1.1"
+    "util-deprecate" "^1.0.2"
+    "webpack" "4"
+    "webpack-dev-middleware" "^3.7.3"
+    "webpack-virtual-modules" "^0.2.2"
+
 "@storybook/core@6.2.8":
   "integrity" "sha512-9gD/tti/+ZmzEihnrv+FF1+AgjIdCQ6VMFT76UXUEX44WZSqM8O9KA+8Llx2AD4wU928KDWLruP+5UiHkDAJKw== sha1-8VdXStI+69ZWxLR/09EMrwIa2rc="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core/-/core-6.2.8.tgz"
@@ -2322,6 +2689,14 @@
     "@storybook/core-client" "6.2.8"
     "@storybook/core-server" "6.2.8"
 
+"@storybook/core@6.2.9":
+  "integrity" "sha1-4y5ys720Q4T18P+TrRpIOs0DO0s="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/core/-/core-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@storybook/core-client" "6.2.9"
+    "@storybook/core-server" "6.2.9"
+
 "@storybook/csf@0.0.1":
   "integrity" "sha512-USTLkZze5gkel8MYCujSRBVIrUQ3YPBrLOx7GNk/0wttvVtlzWXAq9eLbQ4p/NicGxP+3T7KPEMVV//g+yubpw== sha1-lZAVB9wC8LxvmsjuGYPi/Fu5jOY="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/csf/-/csf-0.0.1.tgz"
@@ -2329,10 +2704,21 @@
   dependencies:
     "lodash" "^4.17.15"
 
-"@storybook/node-logger@^6.2.8", "@storybook/node-logger@6.2.8":
+"@storybook/node-logger@*", "@storybook/node-logger@^6.2.8", "@storybook/node-logger@6.2.8":
   "integrity" "sha512-mSbHF1yneRScviISaDQmtRcOBwjHbmdc8p791X4Myl87luqENnt0s8mnTG0H8uH/LGKvtZ2AGST89MqusQ6xUw== sha1-pcsh45ej5JRTdbc4A/kByTUTpWw="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/node-logger/-/node-logger-6.2.8.tgz"
   "version" "6.2.8"
+  dependencies:
+    "@types/npmlog" "^4.1.2"
+    "chalk" "^4.1.0"
+    "core-js" "^3.8.2"
+    "npmlog" "^4.1.2"
+    "pretty-hrtime" "^1.0.3"
+
+"@storybook/node-logger@6.2.9":
+  "integrity" "sha1-xn2NdoRRS40AIHUC6Kmt2g7nUOU="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/node-logger/-/node-logger-6.2.9.tgz"
+  "version" "6.2.9"
   dependencies:
     "@types/npmlog" "^4.1.2"
     "chalk" "^4.1.0"
@@ -2360,7 +2746,7 @@
     "react-docgen-typescript-plugin" "^0.6.2"
     "semver" "^7.3.2"
 
-"@storybook/react@^6.1.21", "@storybook/react@^6.2.8":
+"@storybook/react@*", "@storybook/react@^6.1.21", "@storybook/react@^6.2.8", "@storybook/react@>=5.2":
   "integrity" "sha512-n8nQmuclm+KvwOKWpZfTFeeUWISZuEUcHQc6MGoi0fzXDnJDPSk4KI6kvIMlr1kSDh41+iZfbbBTil+XWORaRA== sha1-ez+3nzCmloVui7mLLcais6SMvbo="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/react/-/react-6.2.8.tgz"
   "version" "6.2.8"
@@ -2396,6 +2782,22 @@
   dependencies:
     "@reach/router" "^1.3.4"
     "@storybook/client-logger" "6.2.8"
+    "@types/reach__router" "^1.3.7"
+    "core-js" "^3.8.2"
+    "fast-deep-equal" "^3.1.3"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "memoizerific" "^1.11.3"
+    "qs" "^6.10.0"
+    "ts-dedent" "^2.0.0"
+
+"@storybook/router@6.2.9":
+  "integrity" "sha1-VHVDAx3YMwhwu2tHPc9+UZguhBw="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/router/-/router-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@reach/router" "^1.3.4"
+    "@storybook/client-logger" "6.2.9"
     "@types/reach__router" "^1.3.7"
     "core-js" "^3.8.2"
     "fast-deep-equal" "^3.1.3"
@@ -2456,6 +2858,24 @@
     "resolve-from" "^5.0.0"
     "ts-dedent" "^2.0.0"
 
+"@storybook/theming@6.2.9":
+  "integrity" "sha1-Fr9AGAhh8iLH7R2Aq9XR48sxVmA="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/theming/-/theming-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@emotion/core" "^10.1.1"
+    "@emotion/is-prop-valid" "^0.8.6"
+    "@emotion/styled" "^10.0.27"
+    "@storybook/client-logger" "6.2.9"
+    "core-js" "^3.8.2"
+    "deep-object-diff" "^1.1.0"
+    "emotion-theming" "^10.0.27"
+    "global" "^4.4.0"
+    "memoizerific" "^1.11.3"
+    "polished" "^4.0.5"
+    "resolve-from" "^5.0.0"
+    "ts-dedent" "^2.0.0"
+
 "@storybook/ui@6.2.8":
   "integrity" "sha512-lPRa6z3ArHEewuIAAtHFdF7VwK7chMGza/PV1gAQT2ywUDibJoTen/qtUP4TKhLSJTOUsZK8q4X7yiN1KJBu5w== sha1-Mx+PW7jm/q8Vo6kbI+ukhQmIJlA="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/ui/-/ui-6.2.8.tgz"
@@ -2471,6 +2891,41 @@
     "@storybook/router" "6.2.8"
     "@storybook/semver" "^7.3.2"
     "@storybook/theming" "6.2.8"
+    "@types/markdown-to-jsx" "^6.11.3"
+    "copy-to-clipboard" "^3.3.1"
+    "core-js" "^3.8.2"
+    "core-js-pure" "^3.8.2"
+    "downshift" "^6.0.15"
+    "emotion-theming" "^10.0.27"
+    "fuse.js" "^3.6.1"
+    "global" "^4.4.0"
+    "lodash" "^4.17.20"
+    "markdown-to-jsx" "^6.11.4"
+    "memoizerific" "^1.11.3"
+    "polished" "^4.0.5"
+    "qs" "^6.10.0"
+    "react-draggable" "^4.4.3"
+    "react-helmet-async" "^1.0.7"
+    "react-sizeme" "^3.0.1"
+    "regenerator-runtime" "^0.13.7"
+    "resolve-from" "^5.0.0"
+    "store2" "^2.12.0"
+
+"@storybook/ui@6.2.9":
+  "integrity" "sha1-Jc33ri7zirM3Vwwjd/2h2pmXkuc="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@storybook/ui/-/ui-6.2.9.tgz"
+  "version" "6.2.9"
+  dependencies:
+    "@emotion/core" "^10.1.1"
+    "@storybook/addons" "6.2.9"
+    "@storybook/api" "6.2.9"
+    "@storybook/channels" "6.2.9"
+    "@storybook/client-logger" "6.2.9"
+    "@storybook/components" "6.2.9"
+    "@storybook/core-events" "6.2.9"
+    "@storybook/router" "6.2.9"
+    "@storybook/semver" "^7.3.2"
+    "@storybook/theming" "6.2.9"
     "@types/markdown-to-jsx" "^6.11.3"
     "copy-to-clipboard" "^3.3.1"
     "core-js" "^3.8.2"
@@ -2602,7 +3057,7 @@
     "@svgr/plugin-svgo" "^5.4.0"
     "loader-utils" "^2.0.0"
 
-"@testing-library/dom@^7.28.1":
+"@testing-library/dom@^7.28.1", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-CtrJRiSYEfbtNGtEsd78mk1n1v2TUbeABlNIcOCJdDfkN5/JTOwQEbbQpoSRxGqzcWPgStMvJ4mNolSuBRv1NA== sha1-FkfCtHh4liHq16UGFK2Bq1rluGw="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@testing-library/dom/-/dom-7.29.4.tgz"
   "version" "7.29.4"
@@ -2728,7 +3183,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@types/glob-base/-/glob-base-0.3.0.tgz"
   "version" "0.3.0"
 
-"@types/glob@*", "@types/glob@^7.1.1":
+"@types/glob@*", "@types/glob@^7.1.1", "@types/glob@^7.1.3":
   "integrity" "sha512-SEYeGAIQIQX8NN6LDKprLjbrd5dARM5EXsd8GI/A5l0apYI1fGMWgPHSe4ZKL4eozlAyI+doUE9XbYS4xCkQ1w== sha1-5rqA82t9qtLGhazZJmOC5omFwYM="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@types/glob/-/glob-7.1.3.tgz"
   "version" "7.1.3"
@@ -2779,7 +3234,14 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*":
+"@types/jest-specific-snapshot@^0.5.3":
+  "integrity" "sha1-R85ziHC+mYmO1tewjb8CQMdK5VM="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@types/jest-specific-snapshot/-/jest-specific-snapshot-0.5.5.tgz"
+  "version" "0.5.5"
+  dependencies:
+    "@types/jest" "*"
+
+"@types/jest@*", "@types/jest@^26.0.16":
   "integrity" "sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA== sha1-zS8nAuz2noa1huH1Ijpg5FQFYwc="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@types/jest/-/jest-26.0.20.tgz"
   "version" "26.0.20"
@@ -2963,7 +3425,7 @@
     "@types/source-list-map" "*"
     "source-map" "^0.7.3"
 
-"@types/webpack@^4.41.13", "@types/webpack@^4.41.26", "@types/webpack@^4.41.8":
+"@types/webpack@^4.41.13", "@types/webpack@^4.41.26", "@types/webpack@^4.41.8", "@types/webpack@4.x":
   "integrity" "sha512-wK/oi5gcHi72VMTbOaQ70VcDxSQ1uX8S2tukBK9ARuGXrYM/+u4ou73roc7trXDNmCxCoerE8zruQqX/wuHszA== sha1-9H2kiMgDfn8bLb8nFPu6y2HsD/w="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@types/webpack/-/webpack-4.41.27.tgz"
   "version" "4.41.27"
@@ -2987,7 +3449,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.5.0":
+"@typescript-eslint/eslint-plugin@^4.0.0", "@typescript-eslint/eslint-plugin@^4.5.0":
   "integrity" "sha512-d7LeQ7dbUrIv5YVFNzGgaW3IQKMmnmKFneRWagRlGYOSfLJVaRbj/FrBNOBC1a3tVO+TgNq1GbHvRtg1kwL0FQ== sha1-s2Kr4O5HimxtBsFFUqZJfwtIB2k="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.8.1.tgz"
   "version" "4.8.1"
@@ -3023,7 +3485,7 @@
     "eslint-scope" "^5.0.0"
     "eslint-utils" "^2.0.0"
 
-"@typescript-eslint/parser@^4.5.0":
+"@typescript-eslint/parser@^4.0.0", "@typescript-eslint/parser@^4.5.0":
   "integrity" "sha512-QND8XSVetATHK9y2Ltc/XBl5Ro7Y62YuZKnPEwnNPB8E379fDsvzJ1dMJ46fg/VOmk0hXhatc+GXs5MaXuL5Uw== sha1-T+L727Z0hbr8QyCzrpHjTv4SGdE="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/@typescript-eslint/parser/-/parser-4.8.1.tgz"
   "version" "4.8.1"
@@ -3280,15 +3742,15 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/acorn-walk/-/acorn-walk-7.2.0.tgz"
   "version" "7.2.0"
 
+"acorn@^6.0.0 || ^7.0.0 || ^8.0.0", "acorn@^7.1.0", "acorn@^7.1.1", "acorn@^7.4.0", "acorn@^7.4.1":
+  "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A== sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/acorn/-/acorn-7.4.1.tgz"
+  "version" "7.4.1"
+
 "acorn@^6.4.1":
   "integrity" "sha512-XtGIhXwF8YM8bJhGxG5kXgjkEuNGLTkoYqVE+KMR+aspr4KGYmKYg7yUe3KghyQ9yheNwLnjmzh/7+gfDBmHCQ== sha1-NYZv1xBSjpLeEM8GAWSY5H454eY="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/acorn/-/acorn-6.4.2.tgz"
   "version" "6.4.2"
-
-"acorn@^7.1.0", "acorn@^7.1.1", "acorn@^7.4.0", "acorn@^7.4.1":
-  "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A== sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/acorn/-/acorn-7.4.1.tgz"
-  "version" "7.4.1"
 
 "address@^1.0.1", "address@1.1.2":
   "integrity" "sha512-aT6camzM4xEA54YVJYSqxz1kv4IHnQZRtThJJHhUMRExaU5spC7jX5ugSwTaTgJliIgs4VhZOk7htClvQ/LmRA== sha1-vxEWycdYxRt6kz0pa3LCIe2UKLY="
@@ -3344,7 +3806,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
   "version" "3.5.2"
 
-"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.12.5":
+"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.12.5", "ajv@^6.9.1", "ajv@>=5.0.0":
   "integrity" "sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g== sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/ajv/-/ajv-6.12.6.tgz"
   "version" "6.12.6"
@@ -3705,7 +4167,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/axobject-query/-/axobject-query-2.2.0.tgz"
   "version" "2.2.0"
 
-"babel-eslint@^10.1.0":
+"babel-eslint@^10.0.0", "babel-eslint@^10.1.0":
   "integrity" "sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg== sha1-aWjlaKkQt4+zd5zdi2rC9HmUMjI="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-eslint/-/babel-eslint-10.1.0.tgz"
   "version" "10.1.0"
@@ -3738,7 +4200,7 @@
     "graceful-fs" "^4.2.4"
     "slash" "^3.0.0"
 
-"babel-loader@^8.2.2":
+"babel-loader@^8.0.0", "babel-loader@^8.2.2":
   "integrity" "sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g== sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-loader/-/babel-loader-8.2.2.tgz"
   "version" "8.2.2"
@@ -3833,9 +4295,9 @@
     "resolve" "^1.12.0"
 
 "babel-plugin-macros@^3.0.1":
-  "integrity" "sha512-CKt4+Oy9k2wiN+hT1uZzOw7d8zb1anbQpf7KLwaaXRCi/4pzKdFKHf7v5mvoPmjkmxshh7eKZQuRop06r5WP4w== sha1-DUEtaPWz0bZDWPJKsJm9FIck4qk="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-plugin-macros/-/babel-plugin-macros-3.0.1.tgz"
-  "version" "3.0.1"
+  "integrity" "sha1-nvbcdN65NLTbNE3Jc+6FHRSMUME="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-plugin-macros/-/babel-plugin-macros-3.1.0.tgz"
+  "version" "3.1.0"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "cosmiconfig" "^7.0.0"
@@ -3856,7 +4318,7 @@
     "semver" "^6.1.1"
 
 "babel-plugin-polyfill-corejs3@^0.1.0":
-  "integrity" "sha512-u+gbS9bbPhZWEeyy1oR/YaaSpod/KDT07arZHb80aTpl8H5ZBq+uN1nN9/xtX7jQyfLdPfoqI4Rue/MQSWJquw== sha1-gESdnW8idJEuBdnhgrVIFpBL79A="
+  "integrity" "sha1-gESdnW8idJEuBdnhgrVIFpBL79A="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.1.7.tgz"
   "version" "0.1.7"
   dependencies:
@@ -3886,6 +4348,11 @@
     "ast-types" "^0.14.2"
     "lodash" "^4.17.15"
     "react-docgen" "^5.0.0"
+
+"babel-plugin-require-context-hook@^1.0.0":
+  "integrity" "sha1-Pw58zofDOPU2OblIYy/U5zg0Yy0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/babel-plugin-require-context-hook/-/babel-plugin-require-context-hook-1.0.0.tgz"
+  "version" "1.0.0"
 
 "babel-plugin-syntax-jsx@^6.18.0":
   "integrity" "sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY="
@@ -4134,7 +4601,23 @@
     "balanced-match" "^1.0.0"
     "concat-map" "0.0.1"
 
-"braces@^2.3.1", "braces@^2.3.2":
+"braces@^2.3.1":
+  "integrity" "sha1-WXn9PxTNUxVl5fot8av/8d+u5yk="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/braces/-/braces-2.3.2.tgz"
+  "version" "2.3.2"
+  dependencies:
+    "arr-flatten" "^1.1.0"
+    "array-unique" "^0.3.2"
+    "extend-shallow" "^2.0.1"
+    "fill-range" "^4.0.0"
+    "isobject" "^3.0.1"
+    "repeat-element" "^1.1.2"
+    "snapdragon" "^0.8.1"
+    "snapdragon-node" "^2.0.1"
+    "split-string" "^3.0.2"
+    "to-regex" "^3.0.1"
+
+"braces@^2.3.2":
   "integrity" "sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w== sha1-WXn9PxTNUxVl5fot8av/8d+u5yk="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/braces/-/braces-2.3.2.tgz"
   "version" "2.3.2"
@@ -4228,17 +4711,6 @@
   dependencies:
     "pako" "~1.0.5"
 
-"browserslist@^4.0.0", "browserslist@^4.12.0", "browserslist@^4.14.5", "browserslist@^4.6.2", "browserslist@^4.6.4":
-  "integrity" "sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ== sha1-wHHBs2IsHC55B5mje7CUc6Q1HLY="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/browserslist/-/browserslist-4.14.7.tgz"
-  "version" "4.14.7"
-  dependencies:
-    "caniuse-lite" "^1.0.30001157"
-    "colorette" "^1.2.1"
-    "electron-to-chromium" "^1.3.591"
-    "escalade" "^3.1.1"
-    "node-releases" "^1.1.66"
-
 "browserslist@^4.16.4":
   "integrity" "sha512-d7rCxYV8I9kj41RH8UKYnvDYCRENUlHRgyXy/Rhr/1BaeLGfiCptEdFE8MIrvGfWbBFNjVYx76SQWvNX1j+/cQ== sha1-fr+RNIf0DK9GN7iSsmgGmVHDXVg="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/browserslist/-/browserslist-4.16.4.tgz"
@@ -4249,6 +4721,17 @@
     "electron-to-chromium" "^1.3.712"
     "escalade" "^3.1.1"
     "node-releases" "^1.1.71"
+
+"browserslist@^4", "browserslist@^4.0.0", "browserslist@^4.12.0", "browserslist@^4.14.5", "browserslist@^4.6.2", "browserslist@^4.6.4":
+  "integrity" "sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ== sha1-wHHBs2IsHC55B5mje7CUc6Q1HLY="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/browserslist/-/browserslist-4.14.7.tgz"
+  "version" "4.14.7"
+  dependencies:
+    "caniuse-lite" "^1.0.30001157"
+    "colorette" "^1.2.1"
+    "electron-to-chromium" "^1.3.591"
+    "escalade" "^3.1.1"
+    "node-releases" "^1.1.66"
 
 "browserslist@4.14.2":
   "integrity" "sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw== sha1-GzzsRYobqHWIzF6b5i8ZttSIE84="
@@ -4503,9 +4986,9 @@
     "supports-color" "^7.1.0"
 
 "chalk@^4.1.0":
-  "integrity" "sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A== sha1-ThSHCmGNni7dl92DRf2dncMVZGo="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/chalk/-/chalk-4.1.0.tgz"
-  "version" "4.1.0"
+  "integrity" "sha1-yAs/qyi/Y3HmhjMl7uZ+YYt35q0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/chalk/-/chalk-4.1.1.tgz"
+  "version" "4.1.1"
   dependencies:
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
@@ -6250,7 +6733,7 @@
     "lodash" "^4.17.15"
     "string-natural-compare" "^3.0.1"
 
-"eslint-plugin-import@^2.22.1":
+"eslint-plugin-import@^2.22.0", "eslint-plugin-import@^2.22.1":
   "integrity" "sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw== sha1-CJbH5qDPRBCaLZe5WQPCu2iddwI="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz"
   "version" "2.22.1"
@@ -6269,7 +6752,7 @@
     "resolve" "^1.17.0"
     "tsconfig-paths" "^3.9.0"
 
-"eslint-plugin-jest@^24.1.0":
+"eslint-plugin-jest@^24.0.0", "eslint-plugin-jest@^24.1.0":
   "integrity" "sha512-dNGGjzuEzCE3d5EPZQ/QGtmlMotqnYWD/QpCZ1UuZlrMAdhG5rldh0N0haCvhGnUkSeuORS5VNROwF9Hrgn3Lg== sha1-+j24ZPBsViP/Q0hcpsDo/F/ougw="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint-plugin-jest/-/eslint-plugin-jest-24.1.3.tgz"
   "version" "24.1.3"
@@ -6293,12 +6776,12 @@
     "jsx-ast-utils" "^3.1.0"
     "language-tags" "^1.0.5"
 
-"eslint-plugin-react-hooks@^4.2.0":
+"eslint-plugin-react-hooks@^4.0.8", "eslint-plugin-react-hooks@^4.2.0":
   "integrity" "sha512-623WEiZJqxR7VdxFCKLI6d6LLpwJkGPYKODnkH3D7WpOG5KM8yWueBd8TLsNAetEJNF5iJmolaAKO3F8yzyVBQ== sha1-jCKcJo1GiVYzTJQ7tF/IYCgPVVY="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz"
   "version" "4.2.0"
 
-"eslint-plugin-react@^7.21.5":
+"eslint-plugin-react@^7.20.3", "eslint-plugin-react@^7.21.5":
   "integrity" "sha512-8MaEggC2et0wSF6bUeywF7qQ46ER81irOdWS4QWxnnlAEsnzeBevk1sWh7fhpCghPpXb+8Ks7hvaft6L/xsR6g== sha1-ULIaQSuVdL/gWyHbF26LezsVv/M="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint-plugin-react/-/eslint-plugin-react-7.21.5.tgz"
   "version" "7.21.5"
@@ -6315,7 +6798,7 @@
     "resolve" "^1.18.1"
     "string.prototype.matchall" "^4.0.2"
 
-"eslint-plugin-testing-library@^3.9.2":
+"eslint-plugin-testing-library@^3.9.0", "eslint-plugin-testing-library@^3.9.2":
   "integrity" "sha512-nQIFe2muIFv2oR2zIuXE4vTbcFNx8hZKRzgHZqJg8rfopIWwoTwtlbCCNELT/jXzVe1uZF68ALGYoDXjLczKiQ== sha1-TdAjBtYBwyOP2r8dHbxfKo6F1TE="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.10.1.tgz"
   "version" "3.10.1"
@@ -6376,7 +6859,7 @@
     "micromatch" "^4.0.2"
     "schema-utils" "^3.0.0"
 
-"eslint@^7.11.0":
+"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5 || ^6 || ^7", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^7.0.0", "eslint@^7.1.0", "eslint@^7.11.0", "eslint@^7.5.0", "eslint@>= 4.12.1", "eslint@>=5":
   "integrity" "sha512-5YubdnPXrlrYAFCKybPuHIAH++PINe1pmKNc5wQRB9HSbqIK1ywAnntE3Wwua4giKu0bjligf1gLF6qxMGOYRA== sha1-LSysHSgXTFEKl7N38SKlUHlY40Q="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/eslint/-/eslint-7.14.0.tgz"
   "version" "7.14.0"
@@ -6743,7 +7226,7 @@
   dependencies:
     "flat-cache" "^2.0.1"
 
-"file-loader@^6.2.0":
+"file-loader@*", "file-loader@^6.2.0":
   "integrity" "sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw== sha1-uu98+OGEDfMl5DkLRISHlIDuvk0="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/file-loader/-/file-loader-6.2.0.tgz"
   "version" "6.2.0"
@@ -6940,9 +7423,9 @@
     "worker-rpc" "^0.1.0"
 
 "fork-ts-checker-webpack-plugin@^6.0.4":
-  "integrity" "sha512-Pyhn2kav/Y2g6I7aInABgcph/B78jjdXc4kGHzaAUBL4UVthknxM6aMH47JwpnuTJmdOuf6p5vMbIahsBHuWGg== sha1-46fmTJDlSQp11D2G1H8C5TjAoT4="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.1.tgz"
-  "version" "6.2.1"
+  "integrity" "sha1-txUpfjmnfzEkLQGhNaiNGMENguo="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.12.tgz"
+  "version" "6.2.12"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@types/json-schema" "^7.0.5"
@@ -6951,6 +7434,7 @@
     "cosmiconfig" "^6.0.0"
     "deepmerge" "^4.2.2"
     "fs-extra" "^9.0.0"
+    "glob" "^7.1.6"
     "memfs" "^3.1.2"
     "minimatch" "^3.0.4"
     "schema-utils" "2.7.0"
@@ -7078,6 +7562,16 @@
   dependencies:
     "bindings" "^1.5.0"
     "nan" "^2.12.1"
+
+"fsevents@^2.1.2", "fsevents@^2.1.3":
+  "integrity" "sha512-bTLYHSeC0UH/EFXS9KqWnXuOl/wHK5Z/d+ghd5AsFMYN7wIGkUCOJyzy88+wJKkZPGON8u4Z9f6U4FdgURE9qA== sha1-H7At7SA2qKwojVB6ZZYr2HuXYo0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/fsevents/-/fsevents-2.2.1.tgz"
+  "version" "2.2.1"
+
+"fsevents@~2.1.2":
+  "integrity" "sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ== sha1-+3OHA66NL5/pAMM4Nt3r7ouX8j4="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/fsevents/-/fsevents-2.1.3.tgz"
+  "version" "2.1.3"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A== sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0="
@@ -7241,7 +7735,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz"
   "version" "0.3.0"
 
-"glob@^7.0.3", "glob@^7.1.1", "glob@^7.1.2", "glob@^7.1.3", "glob@^7.1.4", "glob@^7.1.6":
+"glob@*", "glob@^7.0.3", "glob@^7.1.1", "glob@^7.1.2", "glob@^7.1.3", "glob@^7.1.4", "glob@^7.1.6":
   "integrity" "sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA== sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/glob/-/glob-7.1.6.tgz"
   "version" "7.1.6"
@@ -8023,7 +8517,7 @@
     "binary-extensions" "^2.0.0"
 
 "is-buffer@^1.1.5":
-  "integrity" "sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w== sha1-76ouqdqg16suoTqXsritUf776L4="
+  "integrity" "sha1-76ouqdqg16suoTqXsritUf776L4="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/is-buffer/-/is-buffer-1.1.6.tgz"
   "version" "1.1.6"
 
@@ -8747,6 +9241,20 @@
     "jest-regex-util" "^26.0.0"
     "jest-snapshot" "^26.6.2"
 
+"jest-resolve@*", "jest-resolve@26.6.0":
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ== sha1-Bw/nFZr4ewPlD1LqXhfulbvuQOE="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest-resolve/-/jest-resolve-26.6.0.tgz"
+  "version" "26.6.0"
+  dependencies:
+    "@jest/types" "^26.6.0"
+    "chalk" "^4.0.0"
+    "graceful-fs" "^4.2.4"
+    "jest-pnp-resolver" "^1.2.2"
+    "jest-util" "^26.6.0"
+    "read-pkg-up" "^7.0.1"
+    "resolve" "^1.17.0"
+    "slash" "^3.0.0"
+
 "jest-resolve@^26.6.2":
   "integrity" "sha512-sOxsZOq25mT1wRsfHcbtkInS+Ek7Q8jCHUB0ZUTP0tc/c41QHriU/NunqMfCUWsL4H3MHpvQD4QR9kSYhS7UvQ== sha1-o6sVFyF/RptQTxtWYDxbtUH7tQc="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest-resolve/-/jest-resolve-26.6.2.tgz"
@@ -8759,20 +9267,6 @@
     "jest-util" "^26.6.2"
     "read-pkg-up" "^7.0.1"
     "resolve" "^1.18.1"
-    "slash" "^3.0.0"
-
-"jest-resolve@26.6.0":
-  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ== sha1-Bw/nFZr4ewPlD1LqXhfulbvuQOE="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest-resolve/-/jest-resolve-26.6.0.tgz"
-  "version" "26.6.0"
-  dependencies:
-    "@jest/types" "^26.6.0"
-    "chalk" "^4.0.0"
-    "graceful-fs" "^4.2.4"
-    "jest-pnp-resolver" "^1.2.2"
-    "jest-util" "^26.6.0"
-    "read-pkg-up" "^7.0.1"
-    "resolve" "^1.17.0"
     "slash" "^3.0.0"
 
 "jest-runner@^26.6.0", "jest-runner@^26.6.3":
@@ -8842,7 +9336,7 @@
     "@types/node" "*"
     "graceful-fs" "^4.2.4"
 
-"jest-snapshot@^26.6.0", "jest-snapshot@^26.6.2":
+"jest-snapshot@^26.3.0", "jest-snapshot@^26.6.0", "jest-snapshot@^26.6.2":
   "integrity" "sha512-OLhxz05EzUtsAmOMzuupt1lHYXCNib0ECyuZ/PZOx9TrZcC8vL0x+DUG3TL+GLX3yHG45e6YGjIm0XwDc3q3og== sha1-87CvGssiMxaFC9FOG+6pg3+znIQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest-snapshot/-/jest-snapshot-26.6.2.tgz"
   "version" "26.6.2"
@@ -8863,6 +9357,13 @@
     "natural-compare" "^1.4.0"
     "pretty-format" "^26.6.2"
     "semver" "^7.3.2"
+
+"jest-specific-snapshot@^4.0.0":
+  "integrity" "sha1-pSouIj51duYQ2+rzQSB8VXrCBVQ="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest-specific-snapshot/-/jest-specific-snapshot-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "jest-snapshot" "^26.3.0"
 
 "jest-util@^26.6.0", "jest-util@^26.6.2":
   "integrity" "sha512-MDW0fKfsn0OI7MS7Euz6h8HNDXVQ0gaM9uW6RjfDmd1DAFcaxX9OqIakHIqhbnmF08Cf2DLDG+ulq8YQQ0Lp0Q== sha1-kHU12+TVpstMR6ybkm9q8pV2y8E="
@@ -8931,7 +9432,7 @@
     "merge-stream" "^2.0.0"
     "supports-color" "^7.0.0"
 
-"jest@26.6.0":
+"jest@^26.0.0", "jest@>= 26.0.0", "jest@26.6.0":
   "integrity" "sha512-jxTmrvuecVISvKFFhOkjsWRZV7sFqdSUAd1ajOKY+/QE/aLBVstsJ/dX8GczLzwiT6ZEwwmZqtCUHLHHQVzcfA== sha1-VGslodjIiFadu+k8rhMXSAhqSiU="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/jest/-/jest-26.6.0.tgz"
   "version" "26.6.0"
@@ -11326,7 +11827,7 @@
     "indexes-of" "^1.0.1"
     "uniq" "^1.0.1"
 
-"postcss@^7", "postcss@^7.0.0", "postcss@^7.0.1", "postcss@^7.0.14", "postcss@^7.0.17", "postcss@^7.0.2", "postcss@^7.0.26", "postcss@^7.0.27", "postcss@^7.0.32", "postcss@^7.0.35", "postcss@^7.0.5", "postcss@^7.0.6":
+"postcss@^7", "postcss@^7.0.0", "postcss@^7.0.0 || ^8.0.1", "postcss@^7.0.1", "postcss@^7.0.14", "postcss@^7.0.17", "postcss@^7.0.2", "postcss@^7.0.26", "postcss@^7.0.27", "postcss@^7.0.32", "postcss@^7.0.35", "postcss@^7.0.5", "postcss@^7.0.6":
   "integrity" "sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg== sha1-0r4AuZj38hHYonaXQHny6SuXDiQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/postcss/-/postcss-7.0.35.tgz"
   "version" "7.0.35"
@@ -11731,7 +12232,7 @@
     "node-dir" "^0.1.10"
     "strip-indent" "^3.0.0"
 
-"react-dom@^17.0.1":
+"react-dom@*", "react-dom@^0.14.0 || ^15.0.0-0 || ^16.0.0 || ^17.0.0", "react-dom@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react-dom@^16.6.0 || ^17.0.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@>=16.8.0", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3":
   "integrity" "sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug== sha1-HeJWBHTsnw4zQoVmLt5S28VCb8Y="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-dom/-/react-dom-17.0.1.tgz"
   "version" "17.0.1"
@@ -11786,6 +12287,11 @@
     "is-dom" "^1.0.0"
     "prop-types" "^15.0.0"
 
+"react-is@^16.12.0 || ^17.0.0", "react-is@^17.0.1", "react-is@^17.0.2":
+  "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w== sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-is/-/react-is-17.0.2.tgz"
+  "version" "17.0.2"
+
 "react-is@^16.7.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ== sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz"
@@ -11795,11 +12301,6 @@
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ== sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
-
-"react-is@^17.0.1", "react-is@^17.0.2":
-  "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w== sha1-5pHUqOnHiTZWVVOas3J2Kw77VPA="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-is/-/react-is-17.0.2.tgz"
-  "version" "17.0.2"
 
 "react-lifecycles-compat@^3.0.4":
   "integrity" "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA== sha1-TxonOv38jzSIqMUWv9p4+HI1I2I="
@@ -11823,12 +12324,12 @@
     "react-fast-compare" "^3.0.1"
     "warning" "^4.0.2"
 
-"react-refresh@^0.8.3":
+"react-refresh@^0.8.3", "react-refresh@>=0.8.3 <0.10.0":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg== sha1-ch1GV2ctQAxePHXQY8SoX7LV1o8="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react-scripts@4.0.1":
+"react-scripts@>=3.0.0", "react-scripts@4.0.1":
   "integrity" "sha512-NnniMSC/wjwhcJAyPJCWtxx6CWONqgvGgV9+QXj1bwoW/JI++YF1eEf3Upf/mQ9KmP57IBdjzWs1XvnPq7qMTQ== sha1-NJdMD0z98WVZBsld9qBNgNuLiPA="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-scripts/-/react-scripts-4.0.1.tgz"
   "version" "4.0.1"
@@ -11894,6 +12395,14 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
+"react-shallow-renderer@^16.13.1":
+  "integrity" "sha1-vw0C34pRmlWP2bghVELvpchA4SQ="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-shallow-renderer/-/react-shallow-renderer-16.14.1.tgz"
+  "version" "16.14.1"
+  dependencies:
+    "object-assign" "^4.1.1"
+    "react-is" "^16.12.0 || ^17.0.0"
+
 "react-sizeme@^3.0.1":
   "integrity" "sha512-9Hf1NLgSbny1bha77l9HwvwwxQUJxFUqi44Ih+y3evA+PezBpGdCGlnvye6avss2cIgs9PgdYgMnfuzJWn/RUw== sha1-TRL0JE4Oag+5clPnrwMU3HyDpaA="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-sizeme/-/react-sizeme-3.0.1.tgz"
@@ -11915,6 +12424,16 @@
     "prismjs" "^1.21.0"
     "refractor" "^3.1.0"
 
+"react-test-renderer@^16.8.0 || ^17.0.0", "react-test-renderer@^17.0.2":
+  "integrity" "sha1-TNSuXvGtVnD8Dvd26Mx+EjHZhmw="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-test-renderer/-/react-test-renderer-17.0.2.tgz"
+  "version" "17.0.2"
+  dependencies:
+    "object-assign" "^4.1.1"
+    "react-is" "^17.0.2"
+    "react-shallow-renderer" "^16.13.1"
+    "scheduler" "^0.20.2"
+
 "react-textarea-autosize@^8.3.0":
   "integrity" "sha512-JrMWVgQSaExQByP3ggI1eA8zF4mF0+ddVuX7acUeK2V7bmrpjVOY72vmLz2IXFJSAXoY3D80nEzrn0GWajWK3Q== sha1-T5N001ewpvZGmVZyZyJUkSShsts="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react-textarea-autosize/-/react-textarea-autosize-8.3.2.tgz"
@@ -11924,7 +12443,7 @@
     "use-composed-ref" "^1.0.0"
     "use-latest" "^1.0.0"
 
-"react@^17.0.1":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0-0 || ^16.0.0 || ^17.0.0", "react@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react@^16.0.0 || ^17.0.0", "react@^16.13.1 || ^17.0.0", "react@^16.6.0 || ^17.0.0", "react@^16.8.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.4 || ^17.0.0", "react@^17.0.1", "react@>= 0.14.0", "react@>=16.12.0", "react@>=16.3.0", "react@>=16.8.0", "react@15.x || 16.x || 16.4.0-alpha.0911da3", "react@17.0.1", "react@17.0.2":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w== sha1-bgYAQWvVdXTj+G2S7bo9kAhyYSc="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -12242,7 +12761,7 @@
     "stealthy-require" "^1.1.1"
     "tough-cookie" "^2.3.3"
 
-"request@^2.88.2":
+"request@^2.34", "request@^2.88.2":
   "integrity" "sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw== sha1-1zyRhzHLWofaBH4gcjQUb2ZNErM="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/request/-/request-2.88.2.tgz"
   "version" "2.88.2"
@@ -12442,7 +12961,7 @@
   dependencies:
     "estree-walker" "^0.6.1"
 
-"rollup@^1.31.1":
+"rollup@^1.20.0 || ^2.0.0", "rollup@^1.20.0||^2.0.0", "rollup@^1.31.1", "rollup@>=0.60.0 <3", "rollup@>=0.66.0 <3":
   "integrity" "sha512-/2HA0Ec70TvQnXdzynFffkjA6XN+1e2pEv/uKS5Ulca40g2L7KuOE3riasHoNVHOsFD5KKZgDsMk1CP3Tw9s+A== sha1-RIDlLZ2eKuS0a6DZ3erzFjlA+cQ="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/rollup/-/rollup-1.32.1.tgz"
   "version" "1.32.1"
@@ -12538,10 +13057,10 @@
   dependencies:
     "xmlchars" "^2.2.0"
 
-"scheduler@^0.20.1":
-  "integrity" "sha512-LKTe+2xNJBNxu/QhHvDR14wUXHRQbVY5ZOYpOGWRzhydZUqrLb2JBvLPY7cAqFmqrWuDED0Mjk7013SZiOz6Bw== sha1-2guQfiQCawEYHsvHXv3H8ntaAAw="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/scheduler/-/scheduler-0.20.1.tgz"
-  "version" "0.20.1"
+"scheduler@^0.20.1", "scheduler@^0.20.2":
+  "integrity" "sha1-S67jlDbjSqk7SHS93L8P6Li1DpE="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/scheduler/-/scheduler-0.20.2.tgz"
+  "version" "0.20.2"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
@@ -12574,7 +13093,7 @@
     "ajv-keywords" "^3.5.2"
 
 "schema-utils@2.7.0":
-  "integrity" "sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A== sha1-FxUfdtjq5n+793lgwzxnatn078c="
+  "integrity" "sha1-FxUfdtjq5n+793lgwzxnatn078c="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/schema-utils/-/schema-utils-2.7.0.tgz"
   "version" "2.7.0"
   dependencies:
@@ -12877,7 +13396,7 @@
     "source-map-resolve" "^0.5.0"
     "use" "^3.1.0"
 
-"sockjs-client@1.4.0":
+"sockjs-client@^1.4.0", "sockjs-client@1.4.0":
   "integrity" "sha512-5zaLyO8/nri5cua0VtOrFXBPK1jbL4+1cebT/mmKA1E1ZXOvJrII75bPu0l0k843G/+iAbhEqzyKr0w/eCCj7g== sha1-yfJWjhnI/YFztJl+o0IOC7MGx9U="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/sockjs-client/-/sockjs-client-1.4.0.tgz"
   "version" "1.4.0"
@@ -13851,6 +14370,11 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/type-fest/-/type-fest-0.11.0.tgz"
   "version" "0.11.0"
 
+"type-fest@^0.13.1", "type-fest@^0.8.1":
+  "integrity" "sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA== sha1-CeJJ696FHTseSNJ8EFREZn8XuD0="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/type-fest/-/type-fest-0.8.1.tgz"
+  "version" "0.8.1"
+
 "type-fest@^0.3.1":
   "integrity" "sha512-cUGJnCdr4STbePCgqNFbpVNCepa+kAVohJs1sLhxzdH+gnEoOd8VhbYa7pD3zZYGiURWM2xzEII3fQcRizDkYQ== sha1-Y9ANIE4FlHT+Xht8ARESu9HcKeE="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/type-fest/-/type-fest-0.3.1.tgz"
@@ -13860,11 +14384,6 @@
   "integrity" "sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg== sha1-jSojcNPfiG61yQraHFv2GIrPg4s="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/type-fest/-/type-fest-0.6.0.tgz"
   "version" "0.6.0"
-
-"type-fest@^0.8.1":
-  "integrity" "sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA== sha1-CeJJ696FHTseSNJ8EFREZn8XuD0="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/type-fest/-/type-fest-0.8.1.tgz"
-  "version" "0.8.1"
 
 "type-is@~1.6.17", "type-is@~1.6.18":
   "integrity" "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g== sha1-TlUs0F3wlGfcvE73Od6J8s83wTE="
@@ -14352,7 +14871,7 @@
     "range-parser" "^1.2.1"
     "webpack-log" "^2.0.0"
 
-"webpack-dev-server@3.11.0":
+"webpack-dev-server@3.11.0", "webpack-dev-server@3.x":
   "integrity" "sha512-PUxZ+oSTxogFQgkTtFndEtJIPNmml7ExwufBZ9L2/Xyyd5PnOL5UreWe5ZT7IU25DSdykL9p1MLQzmLh2ljSeg== sha1-jxVKO84bz9HMYY705wMniFXn/4w="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack-dev-server/-/webpack-dev-server-3.11.0.tgz"
   "version" "3.11.0"
@@ -14396,7 +14915,7 @@
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.2.1.tgz"
   "version" "1.2.1"
 
-"webpack-hot-middleware@^2.25.0":
+"webpack-hot-middleware@^2.25.0", "webpack-hot-middleware@2.x":
   "integrity" "sha512-xs5dPOrGPCzuRXNi8F6rwhawWvQQkeli5Ro48PRuQh8pYPCPmNnltP9itiUPT4xI8oW+y0m59lyyeQk54s5VgA== sha1-RSigpj7Df4+O9WXPnlNNV9Cf5wY="
   "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack-hot-middleware/-/webpack-hot-middleware-2.25.0.tgz"
   "version" "2.25.0"
@@ -14439,10 +14958,10 @@
   dependencies:
     "debug" "^3.0.0"
 
-"webpack@4.44.2":
-  "integrity" "sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q== sha1-a/4rCvBVyLLR6Q7SzZNj+EEma3I="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack/-/webpack-4.44.2.tgz"
-  "version" "4.44.2"
+"webpack@*", "webpack@^1 || ^2 || ^3 || ^4", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@2 || 3 || 4", "webpack@4":
+  "integrity" "sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q== sha1-v5tEBOogoHNgXgoBHRiNd8tq1UI="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack/-/webpack-4.46.0.tgz"
+  "version" "4.46.0"
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
@@ -14452,7 +14971,7 @@
     "ajv" "^6.10.2"
     "ajv-keywords" "^3.4.1"
     "chrome-trace-event" "^1.0.2"
-    "enhanced-resolve" "^4.3.0"
+    "enhanced-resolve" "^4.5.0"
     "eslint-scope" "^4.0.3"
     "json-parse-better-errors" "^1.0.2"
     "loader-runner" "^2.4.0"
@@ -14468,10 +14987,10 @@
     "watchpack" "^1.7.4"
     "webpack-sources" "^1.4.1"
 
-"webpack@4":
-  "integrity" "sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q== sha1-v5tEBOogoHNgXgoBHRiNd8tq1UI="
-  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack/-/webpack-4.46.0.tgz"
-  "version" "4.46.0"
+"webpack@^4.27.0 || ^5.0.0", "webpack@4.44.2":
+  "integrity" "sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q== sha1-a/4rCvBVyLLR6Q7SzZNj+EEma3I="
+  "resolved" "https://legacy.jfrog.io/artifactory/api/npm/npm/webpack/-/webpack-4.44.2.tgz"
+  "version" "4.44.2"
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
@@ -14481,7 +15000,7 @@
     "ajv" "^6.10.2"
     "ajv-keywords" "^3.4.1"
     "chrome-trace-event" "^1.0.2"
-    "enhanced-resolve" "^4.5.0"
+    "enhanced-resolve" "^4.3.0"
     "eslint-scope" "^4.0.3"
     "json-parse-better-errors" "^1.0.2"
     "loader-runner" "^2.4.0"
