@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 import Task from "./Task";
-import PropTypes from "prop-types";
 
 export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
@@ -28,7 +29,6 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
       </div>
     );
   }
-
   if (tasks.length === 0) {
     return (
       <div className="list-items">
@@ -40,15 +40,13 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
       </div>
     );
   }
-
   const tasksInOrder = [
     ...tasks.filter((t) => t.state === "TASK_PINNED"),
     ...tasks.filter((t) => t.state !== "TASK_PINNED"),
   ];
-
   return (
     <div className="list-items">
-      {tasks.map((task) => (
+      {tasksInOrder.map(task => (
         <Task key={task.id} task={task} {...events} />
       ))}
     </div>
@@ -56,13 +54,13 @@ export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
 }
 
 TaskList.propTypes = {
-  /** checks if it's in loading state */
+  /** Checks if it's in loading state */
   loading: PropTypes.bool,
-  /** the list of tasks */
+  /** The list of tasks */
   tasks: PropTypes.arrayOf(Task.propTypes.task).isRequired,
-  /** event to change the task to pinned */
+  /** Event to change the task to pinned */
   onPinTask: PropTypes.func,
-  /** event to change the task to archived */
+  /** Event to change the task to archived */
   onArchiveTask: PropTypes.func,
 };
 TaskList.defaultProps = {
